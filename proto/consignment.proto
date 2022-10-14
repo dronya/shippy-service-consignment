@@ -1,5 +1,6 @@
 // shippy-service-consignment/proto/consignment/consignment.proto
 //protoc -I. --go_out=plugins=grpc:. consignment.proto
+//protoc -I. --go_out=plugins=grpc:. --micro_out=. consignment.proto
 
 syntax = "proto3";
 
